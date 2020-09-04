@@ -2,6 +2,8 @@ package week1.Reverse_String
 
 /**
  * created by victory_woo on 2020/09/03
+ * 접근 방법
+ * 중간점을 기준으로 start, end 를 통해 서로의 위치를 교환해준다.
  * */
 class Woo {
     fun main(args: Array<String>) {
@@ -9,10 +11,9 @@ class Woo {
     }
 
     fun reverseString(s: CharArray): Unit {
-        val n = s.size
         var start = 0
         var end = n - 1
-        for (i in 0 until n / 2) {
+        for (i in 0 until s.size / 2) {
             val tmp = s[start]
             s[start] = s[end]
             s[end] = tmp
