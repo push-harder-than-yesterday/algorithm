@@ -24,6 +24,8 @@ public class woo2 {
     * a < b인 경우, [b - a]를 더해준다. 그리고 i+=2
     * a ≥ b인 경우, a를 더해준다. 그리고 i++
     * 반복문을 나왔을 때, 더해주지 못한 값이 남아있기 때문에 b 값을 누적해준다.
+    * 여기서 잘못 생각했던 부분은 2개를 비교하면, 그 2개를 건너뛴 다음 2개에 대해서 처리하는 것이라 생각하였다. 그게 아니라 바로 이전과 비교하며 하나씩 증가해서 비교하고 값을 처리하는 것이었다.
+    * 즉, i++만 해도 되는 것이었다.
     * */
     public static int romanToInt(String s) {
         HashMap<String, Integer> map = new HashMap<>();
