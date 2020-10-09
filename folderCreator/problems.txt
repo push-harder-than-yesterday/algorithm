@@ -29,3 +29,16 @@ Merge Two Sorted Lists
 Maximum Depth of Binary Tree
 Reverse Linked List
 Validate Binary Search Tree
+week5
+Shuffle an Array
+Min Stack
+Fizz Buzz
+Count Primes
+Power of Three
+Roman to Integer
+Number of 1 Bits
+Hamming Distance
+Reverse Bits
+Pascal's Triangle
+Valid Parentheses
+Missing Number
