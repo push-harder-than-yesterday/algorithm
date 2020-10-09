@@ -31,7 +31,6 @@ public class MinStack {
         }
 
         public int top() {
-            System.out.println("top() result: " + list.get(list.size() - 1));
             return list.get(list.size() - 1);
         }
 
@@ -41,7 +40,6 @@ public class MinStack {
                 min = Math.min(min, item);
             }
 
-            System.out.println("getMin() result: " + min);
             return min;
         }
     }

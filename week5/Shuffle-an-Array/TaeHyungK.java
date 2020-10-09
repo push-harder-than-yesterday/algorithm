@@ -24,9 +24,6 @@ public class ShuffleAnArray {
         /** Resets the array to its original configuration and return it. */
         public int[] reset() {
             nums = Arrays.copyOf(origin, origin.length);
-            System.out.println("----reset----");
-            System.out.println(Arrays.toString(origin));
-            System.out.println(Arrays.toString(nums));
             return nums;
         }
 
@@ -39,9 +36,6 @@ public class ShuffleAnArray {
                 nums[randomIndex] = nums[i];
                 nums[i] = temp;
             }
-            System.out.println("----shuffle----");
-            System.out.println(Arrays.toString(origin));
-            System.out.println(Arrays.toString(nums));
             return nums;
         }
     }
