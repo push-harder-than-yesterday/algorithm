@@ -2,7 +2,7 @@
 자신의 알고리즘 실력을 마음껏 뽐내보세요! :)
 
 ### # 알고리즘 사이트
-[top interview question - Leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)에서 문제를 볼 수 있습니다.
+[top interview question - Leetcode](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)에서 문제를 볼 수 있습니다.
 
 ### # 스터디 진행방식
 
