@@ -51,9 +51,6 @@ public class PopulatingNextRightPointersInEachNode {
             list.add(levelQueue);
         }
 
-        System.out.println(list);
-
-
         return root;
     }
 
