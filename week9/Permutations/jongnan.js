@@ -5,10 +5,10 @@
 같은 숫자가 중복되면 안되므로 이미 있는 수를 체크한다.
 ////////////////////////////////////////////////////////////////*/
 var permute = function (nums) {
-	return recursion(nums, 0, [], []);
+	return recursion(nums, [], []);
 };
 
-var recursion = function (nums, dep, perm, result) {
+var recursion = function (nums, perm, result) {
 	if (nums.length === perm.length) {
 		if (nums.length === 0) return result;
 		result.push([...perm]);
@@ -17,7 +17,7 @@ var recursion = function (nums, dep, perm, result) {
 	for (let i = 0; i < nums.length; i++) {
 		if (perm.indexOf(nums[i]) !== -1) continue;
 		perm.push(nums[i]);
-		recursion(nums, i, perm, result);
+		recursion(nums, perm, result);
 		perm.pop();
 	}
 	return result;
